@@ -1,4 +1,4 @@
-.. highlight:: console
+e Database de Database d.. highlight:: console
 
 .. author:: stratmaster <https://github.com/stratmaster>
 .. tag:: lang-php
@@ -125,6 +125,8 @@ Now edit ``config.php`` file, change the Database driver to ``mysql`` and provid
 
  // Mysql/Postgres database name
  define('DB_NAME', 'isabell_kanboard');
+
+In case you are using a separate document root, you need to uncomment ``# RewriteBase /`` in ``.htaccess``.
 
 Go to ``https://isabell.uber.space/`` and log in to your installation with the default login ``admin`` and password ``admin``.
 
